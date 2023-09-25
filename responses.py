@@ -41,7 +41,7 @@ def get_response(message: str) -> str:
                 "```\n")
 
     if p_message == '!!hello':
-        responses = ["### WAZZUP HOMIE", "### SUPP CUH", "### SUP NIGGA", "### NIGGA NIGGA NIGGA", "### こんにちは", "### こんにちは、黒人男性"]
+        responses = [""]
         return random.choice(responses)
 
     if p_message == '!!luwi':
@@ -70,38 +70,6 @@ def get_response(message: str) -> str:
 
     if p_message == '!!image':
         image_urls = [
-            "https://imgur.com/Za67MfY", "https://imgur.com/AJtesSK", "https://imgur.com/Qb7MRoU", "https://imgur.com/Za67MfY", "https://imgur.com/fYPhNei",
-            "https://imgur.com/GhQw3lI", "https://imgur.com/i22IeqH", "https://imgur.com/Lwz09BX", "https://imgur.com/KiYdtXD", "https://imgur.com/Jeieyjm",
-            "https://imgur.com/FXWFPd4", "https://imgur.com/eMOTgkG", "https://imgur.com/1s8kLq1", "https://imgur.com/HMgv0bH", "https://imgur.com/YxGVV5O",
-            "https://imgur.com/kGeiTCE", "https://imgur.com/d60Ul3o", "https://imgur.com/IjZliBy", "https://imgur.com/GanAgRN", "https://imgur.com/CHE5Wh6",
-            "https://imgur.com/VLadjSP", "https://imgur.com/4FPbnTX", "https://imgur.com/T4pEonP", "https://imgur.com/YxGVV5O", "https://imgur.com/H0d8MEv",
-            "https://imgur.com/sAitGU4", "https://imgur.com/uOAN101", "https://imgur.com/X3N4Lpd", "https://imgur.com/l51Rx6D", "https://imgur.com/16D3LHW",
-            "https://imgur.com/fnKPUlu", "https://imgur.com/16D3LHW", "https://imgur.com/TgAaPCf", "https://imgur.com/yOmG2wj", "https://imgur.com/gUmlEcC",
-            "https://imgur.com/gUmlEcC", "https://imgur.com/LLKKb7r", "https://imgur.com/KDE8aap", "https://imgur.com/O6UBoFN", "https://imgur.com/L3zcYs5",
-            "https://imgur.com/CR2NKT8", "https://imgur.com/U3RjKej", "https://imgur.com/8QyRzMe", "https://imgur.com/TzjErkn", "https://imgur.com/YUYPlNS",
-            "https://imgur.com/0Bz5T3h", "https://imgur.com/aMyrI1b", "https://imgur.com/mFLqBZd", "https://imgur.com/mFLqBZd", "https://imgur.com/jo8MKMj",
-            "https://imgur.com/kOTM7do", "https://imgur.com/P8pTsry", "https://imgur.com/WEuZygk", "https://imgur.com/bQu1LG6", "https://imgur.com/1R4AN5y",
-            "https://imgur.com/NEJP3Sc", "https://imgur.com/LJ1qgBK", "https://imgur.com/UBNYCvn", "https://imgur.com/DCVNY4Z", "https://imgur.com/5yqMjoY",
-            #"", "", "", "", "",
-            #"", "", "", "", "",
-            #"", "", "", "", "",
-            #"", "", "", "", "",
-            # "", "", "", "", "",
-            # "", "", "", "", "",
-            # "", "", "", "", "",
-            # "", "", "", "", "",
-            # "", "", "", "", "",
-            # "", "", "", "", "",
-            # "", "", "", "", "",
-            # "", "", "", "", "",
-            # "", "", "", "", "",
-            # "", "", "", "", "",
-            # "", "", "", "", "",
-            # "", "", "", "", "",
-            # "", "", "", "", "",
-            # "", "", "", "", "",
-            # "", "", "", "", "",
-            # "", "", "", "", "",
         ]
         random_image_url = random.choice(image_urls)
         return random_image_url
